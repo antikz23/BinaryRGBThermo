@@ -40,30 +40,63 @@ void loop() {
     pixels.setPixelColor(i, pixels.Color(255, 255, 255)); // Moderately bright green color.
 
     pixels.show(); // This sends the updated pixel color to the hardware.
+    delay(50);
   }
 
-  delay(500);
+  delay(100);
+
+  for (int i = 8; i > 0; i--) {
+
+    pixels.setPixelColor(i, pixels.Color(0, 0, 0)); // Moderately bright green color.
+
+    pixels.show(); // This sends the updated pixel color to the hardware.
+    delay(50);
+  }
+
+  delay(50);
+  
 
   for (int i = 0; i < NUMPIXELS; i++) {
-
 
     pixels.setPixelColor(i, pixels.Color(0, 0, 255)); // Moderately bright green color.
 
     pixels.show(); // This sends the updated pixel color to the hardware.
-
+    delay(50);
   }
 
-  delay(500);
+  delay(50);
+  
+
+  for (int i = 8; i > 0; i--) {
+
+    pixels.setPixelColor(i, pixels.Color(0, 0, 0)); 
+    pixels.show(); // This sends the updated pixel color to the hardware.
+    delay(50);
+  }
+
+  delay(50);
+
 
   for (int i = 0; i < NUMPIXELS; i++) {
 
     pixels.setPixelColor(i, pixels.Color(255, 0, 0)); // Moderately bright green color.
 
     pixels.show(); // This sends the updated pixel color to the hardware.
-
+    delay(50);
   }
 
-    delay(500);
+  delay(50);
+
+
+  for (int i = 8; i > 0; i--) {
+
+    pixels.setPixelColor(i, pixels.Color(0, 0, 0)); // Moderately bright green color.
+
+    pixels.show(); // This sends the updated pixel color to the hardware.
+    delay(50);
+  }
+
+  delay(50);
 
 
 
